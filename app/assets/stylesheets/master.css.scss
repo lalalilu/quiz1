@@ -1,2 +1,33 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'https://fonts.googleapis.com/css?family=Merriweather';
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #858585;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.fig1 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  align: center;
+  text-align: center;
+  border: 3px;
+  border-style: double;
+  border-color: #333333;
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+}
