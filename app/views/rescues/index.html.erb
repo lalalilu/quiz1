@@ -1,0 +1,6 @@
+<br>
+<% @rescues.each do |rescue| %>
+  <%= link_to rescue.title, rescue_path(rescue) %>
+  <%= rescue.description %>
+  <%= rescue.when %>
+<% end %>

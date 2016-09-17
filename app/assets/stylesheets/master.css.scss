@@ -21,13 +21,23 @@ h1 {
   margin: 0 auto;
 }
 
-h2 {
+.quote {
   align: center;
   text-align: center;
   border: 3px;
   border-style: double;
-  border-color: #333333;
+  border-color: #333;
   width: 200px;
   padding: 20px;
   margin: 30px auto;
+}
+
+.footer {
+  height: 40px;
+  background-color: #fff;
+  padding: 10px 30px;
+}
+
+.footer a {
+  color: #888;
 }
